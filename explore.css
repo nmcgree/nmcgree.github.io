@@ -2,21 +2,35 @@
 
 html, body {
 	height: 100%;
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 	background: #000 url("bg.jpg") no-repeat center top;
 	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 }
 #wrap {
 	width: 1000px;
 	margin: 0 auto;
+    text-align: center;
 }
 header {
 	clear: both;
-	text-align:center;
+    text-align: left;
 }
+
 #logo {
 	padding: 10px;
+}
+header h1{
+    font-size: 72px;
+    color: white;
+    font-family: Georgia, serif;
+    margin: 0;
+}
+header h2{
+    font-size: 25px;
+    color: #8CF0EF;
+    font-family: Georgia, Serif;
+    margin: 0;
 }
 nav {
 	padding: 10px;
@@ -40,13 +54,36 @@ nav a {
 nav a:hover {
 	color: white;
 }
-section {
+
+section, figure, article {
 	background-color:rgba(0,0,0,0.3);
 }
+
 .welcome {
 	padding: 10px 15px;
 	margin: 20px 0;
 	overflow: auto;
+}
+figure{
+    background-color: black;
+    text-align: center;
+    width: 235px;
+    padding: 10px 10px 5px 10px;
+    border: 1px solid white;
+    float: left;
+    margin: 15px;
+}
+figure img{
+    width: 100%;
+}
+figcaption{
+    color: white;
+    font-family: arial;
+    padding: 5px;
+}
+article{
+    width: 90%;
+    margin: 0 auto;
 }
 footer {
 	background-color: transparent;
